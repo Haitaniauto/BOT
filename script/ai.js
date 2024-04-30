@@ -17,10 +17,10 @@ module.exports.run = async function({
 }) {
   const input = args.join(' ');
   if (!input) {
-    api.sendMessage(`Please provide a question or statement after 'ai'. For example: 'ai What is the capital of France?'`, event.threadID, event.messageID);
+    api.sendMessage(`𝙷𝙸.. 👋.. 𝙸 𝙷𝙰𝚅𝙴 𝙱𝙴𝙴𝙽 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙿𝙴𝙳 𝙱𝚈 𝙷𝙰𝙸𝚃𝙰𝙽𝙸く命 ✨🥀... 𝙸𝙵 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 𝙰𝙽𝚈 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽 𝙸'𝙼 𝙷𝙴𝚁𝙴 𝙵𝙾𝚁 𝚈𝙾𝚄.. ✨🪶🩷'`, event.threadID, event.messageID);
     return;
   }
-  api.sendMessage(`🔍 "${input}"`, event.threadID, event.messageID);
+  api.sendMessage(`🔍 "𝙰𝙽𝚂𝚆𝙴𝚁𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃.. ✨😊"`, event.threadID, event.messageID);
   try {
     const {
       data
